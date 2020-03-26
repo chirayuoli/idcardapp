@@ -60,7 +60,7 @@ class _AvenueCardState extends State<AvenueCard> {
             Text(
               'CURRENT NINJA LEVEL',
               style: TextStyle(
-                color: Colors.grey,
+                color: Colors.grey[400],
                 letterSpacing: 2.0,
               ),
             ),
