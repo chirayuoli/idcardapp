@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-  home: AvenueCard(),
-));
+      home: AvenueCard(),
+    ));
 
 class AvenueCard extends StatefulWidget {
   @override
@@ -10,8 +10,7 @@ class AvenueCard extends StatefulWidget {
 }
 
 class _AvenueCardState extends State<AvenueCard> {
-
-  int ninjaLevel = 0;
+  int ninjaLevel = 1;
 
   @override
   Widget build(BuildContext context) {
@@ -83,7 +82,7 @@ class _AvenueCardState extends State<AvenueCard> {
                 ),
                 SizedBox(width: 10.0),
                 Text(
-                  'randomemail@randommail.com',
+                  'notarandom@randommail.com',
                   style: TextStyle(
                     color: Colors.grey[400],
                     fontSize: 18.0,
@@ -107,5 +106,3 @@ class _AvenueCardState extends State<AvenueCard> {
     );
   }
 }
-
-
